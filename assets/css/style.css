@@ -1,17 +1,18 @@
 body {   
-     margin: 0px
+     margin: 0px;
+     padding: 0px;
+     font-family: 'Open Sans', sans-serif;
 }
 
 .navbar {
     padding: 0px;
-    background-color: #d3d3d3;
+    background-color:#fff;
 }
 
 .navbar-brand {
     font-size: 2em;
     font-family: 'Abril Fatface', cursive, sans-serif;
-    padding: 0px;
-    margin: 0px;
+    margin: 0px 0px 0px 15px;
 }
 
 .navbar-light .navbar-brand {
@@ -21,19 +22,20 @@ body {
 .navbar-light .navbar-brand:focus, .navbar-light .navbar-brand:hover {
     color: #be962a;
     border-bottom: 1px solid;
-    padding-bottom: 0px;
 }
 
 .nav-link {
     font-family:  'Open Sans', sans-serif;
     font-size: 1.4em;
-    padding: 0px;
+    padding: 0px 15px 0px 0px;
+    margin-right: 15px;
 }
 
 
 .navbar-light .navbar-nav .nav-link {
     color: #2a9cbe;
     float: right;
+    position: relative;
 }
 
 .navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
@@ -48,11 +50,63 @@ body {
 
 .navbar-light .navbar-toggler-icon {
     background-image:  url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(190,	150,	58, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    margin-right: 15px;
 }
 
 .navbar-light .navbar-toggler {
     border: none;
     background-color: transparent;
+    padding: 0px;
+}
+
+.navbar-light .navbar-toggler:focus {
+    outline: none;
+    border: none;
+   
+}
+
+
+#hero-image-section {
+    height: 85vh;
+    width: 100%;
+    background-image: url(../images/blue-background-paint-cans.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    position: relative;
+}
+
+.hero-image-cta  h2 {
+ font-family: 'Abril Fatface', cursive, sans-serif;
+ color: #fff;
+ font-weight: 300;
+ text-align: center;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.hero-image-cta p {
+    text-align: center;
+    font-size: 1em;
+    color: #fff;
+}
+
+.hero-image-cta button {
+    text-align: center;
+    background-color: #fff;
+    color: #2a9cbe;
+}
+
+.hero-image-cta p span {
+    color: #be962a;
 }
 
 
@@ -73,9 +127,9 @@ body {
 
 
 
-
-
-
+@media (min-width:450px) {
+    .hero-image-cta { font-size: 150%; }
+}
 
 
 @media (max-width: 400px) {
