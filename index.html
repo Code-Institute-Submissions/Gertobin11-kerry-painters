@@ -49,69 +49,75 @@
 
             </div>
         </div>
-        <div class="modal fade" id="cta-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+        <div class="modal fade" id="cta-modal" tabindex="-1" role="dialog" aria-labelledby="model-header"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Get a Free Quote now!</h5>
+                        <h5 class="modal-title" id="model-header">Get a Free Quote now!</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <div class="form-group">
-                            <label for="password">Full Name</label>
-                            <input type="text" class="form-control" id="form-name" placeholder="Enter Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
-                                aria-describedby="emailHelp" placeholder="Enter email">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
-                                else.</small>
-                        </div>
-                        <div class="form-group">
-                            <label for="repeatPassword">Job Location</label>
-                            <input type="text" class="form-control" id="job-location" placeholder="Address or eircode">
-                        </div>
-                        <legend>Job Type:</legend>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="interior-check"
-                                value="option1">
-                            <label class="form-check-label" for="interior-check">
-                                Interior
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="exterior-check"
-                                value="option2">
-                            <label class="form-check-label" for="exterior-check">
-                                Exterior
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="both-check"
-                                value="option2">
-                            <label class="form-check-label" for="both-check">
-                                Both
-                            </label>
-                        </div>
-                        <div class="form-check">
-                            <input class="form-check-input" type="radio" name="exampleRadios" id="commercial-check"
-                                value="option3">
-                            <label class="form-check-label" for="commercial-check">
-                                Commercial
-                            </label>
-                        </div>
-                        <div class="form-group">
-                            <label for="job-description">Job Description</label>
-                            <textarea class="form-control" id="job-description" rows="3" placeholder="Brief description of the work required"></textarea>
-                        </div>
+                        <form>
+                            <div class="form-group">
+                                <label for="form-name">Full Name:</label>
+                                <input type="text" class="form-control" id="form-name" placeholder="Enter Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="email-address">Email address:</label>
+                                <input type="email" class="form-control" id="email-address"
+                                    aria-describedby="emailHelp" placeholder="Enter email">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with
+                                    anyone
+                                    else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="job-location">Job Location:</label>
+                                <input type="text" class="form-control" id="job-location"
+                                    placeholder="Address or eircode">
+                            </div>
+                            <legend>Job Type:</legend>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="interior-check"
+                                    value="option1">
+                                <label class="form-check-label" for="interior-check">
+                                    Interior
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="exterior-check"
+                                    value="option2">
+                                <label class="form-check-label" for="exterior-check">
+                                    Exterior
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="both-check"
+                                    value="option2">
+                                <label class="form-check-label" for="both-check">
+                                    Both
+                                </label>
+                            </div>
+                            <div class="form-check">
+                                <input class="form-check-input" type="radio" name="exampleRadios" id="commercial-check"
+                                    value="option3">
+                                <label class="form-check-label" for="commercial-check">
+                                    Commercial
+                                </label>
+                            </div>
+                            <br>
+                            <div class="form-group">
+                                <label for="job-description">Job Description:</label>
+                                <textarea class="form-control" id="job-description" rows="3"
+                                    placeholder="Brief description of the work required"></textarea>
+                            </div>
+                        </form>
                     </div>
                     <div class="modal-footer">
                         <button type="submit" class="btn btn-success" data-dismiss="modal">Submit</button>
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-secondary">Close</button>
                     </div>
                 </div>
             </div>

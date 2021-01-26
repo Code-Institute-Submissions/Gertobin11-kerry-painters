@@ -121,13 +121,32 @@ body {
     background-color: #2a9cbe;
 }
 
-#cta-modal h5 {
-    background-color: #fff;
+.modal-header h5 {
+    background-color:transparent;
+    text-align: center;
+    color: #fff;
+    text-align: center;
 }
 
+.modal-header button {
+    color: white;
+}
 
+.modal-header button:hover {
+    color: #be962a;
+}
 
+.form-group label {
+    color: #2a9cbe;
+}
 
+::placeholder {
+    color: #be962a;
+}
+
+.container-fluid {
+    margin: 0px;
+}
 
 
 
