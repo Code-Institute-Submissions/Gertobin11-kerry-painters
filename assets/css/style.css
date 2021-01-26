@@ -82,11 +82,10 @@ body {
     position: relative;
 }
 
-.hero-image-cta  h2 {
+.hero-image-cta  h1 {
  font-family: 'Abril Fatface', cursive, sans-serif;
  color: #fff;
  font-weight: 300;
- text-align: center;
 }
 
 .uppercase {
@@ -94,13 +93,11 @@ body {
 }
 
 .hero-image-cta p {
-    text-align: center;
-    font-size: 1em;
+    font-size: 0.9em;
     color: #fff;
 }
 
 .hero-image-cta button {
-    text-align: center;
     background-color: #fff;
     color: #2a9cbe;
 }
@@ -109,8 +106,24 @@ body {
     color: #be962a;
 }
 
+.content-divider {
+    width: 80px;
+    height: 4px;
+    border: 0;
+    background-color: #be962a;
+}
 
+.modal-body legend {
+    font-size: inherit;
+}
 
+.modal-header {
+    background-color: #2a9cbe;
+}
+
+#cta-modal h5 {
+    background-color: #fff;
+}
 
 
 
