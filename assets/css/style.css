@@ -159,21 +159,32 @@ form legend {
 }
 
 #kerry-painters-logo {
-    padding-top: 35px;
+    padding-top: 20px;
     height: 35vh;
     width: 45vw;
-    padding-bottom: 30px;
 }   
 
 .content-heading {
     color: #2a9cbe;
     font-family: 'Abril Fatface', cursive, sans-serif;
+    margin: 20px;
 }
 .content-heading i {
     color: #be962a;
 }
 
+.p-text-centered {
+    width: 50%;
+    color: #2a9cbe;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+}
 
+.p-text-centered i {
+    size: 1.2em;
+    color: #be962a;
+}
 
 
 
@@ -194,9 +205,18 @@ form legend {
 
 @media (max-width: 400px) {
     #kerry-painters-logo {
-    padding-top: 35px;
-    height: 40vh;
-    width: 50vw;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    height: 50vh;
+    width: 60vw;
 }   
+}
+
+@media (max-width: 700px) {
+.p-text-centered {
+    width: 86%;
+    color: #2a9cbe;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 25px;
+}
 }
