@@ -187,31 +187,12 @@ form legend {
     color: #be962a;
 }
 
-#customer-quotes {
-    background-color: #2a9cbe;
-}
-
 .photo-frame  img {
     height: 150px;
     width: 150px;
     border-radius: 50%;
     border: 2px solid #be962a;
     margin-bottom: 50px;
-}
-
-#customer-quotes .row .col-6 p {
-    color: #fff;
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    padding-right: 20px;
-    font-size: 0.8em;
-}
-
-#customer-quotes .row .col-12 h2 {
-    color: #fff;
 }
 
 
