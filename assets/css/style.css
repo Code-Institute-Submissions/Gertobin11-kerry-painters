@@ -2,6 +2,7 @@ body {
      margin: 0px;
      padding: 0px;
      font-family: 'Open Sans', sans-serif;
+     text-align: center;
 }
 
 .navbar {
@@ -148,6 +149,29 @@ body {
     margin: 0px;
 }
 
+form legend {
+    color: #2a9cbe;
+}
+
+.modal-header button:hover {
+    color: #fff;
+    background-color: #2a9cbe;
+}
+
+#kerry-painters-logo {
+    padding-top: 35px;
+    height: 35vh;
+    width: 45vw;
+    padding-bottom: 30px;
+}   
+
+.content-heading {
+    color: #ff2400;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+}
+.content-heading i {
+    color: black;
+}
 
 
 
@@ -166,4 +190,13 @@ body {
 
 @media (max-width: 400px) {
     .navbar-brand { font-size: 1.6em; }
+}
+
+@media (max-width: 400px) {
+    #kerry-painters-logo {
+    padding-top: 35px;
+    height: 40vh;
+    width: 50vw;
+    padding-bottom: 30px;
+}   
 }
