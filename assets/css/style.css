@@ -116,10 +116,15 @@ body {
 
 .modal-body legend {
     font-size: inherit;
+    text-align: left;
 }
 
 .modal-header {
     background-color: #2a9cbe;
+}
+
+.modal-body {
+    text-align: left;
 }
 
 .modal-header h5 {
@@ -158,16 +163,11 @@ form legend {
     background-color: #2a9cbe;
 }
 
-#kerry-painters-logo {
-    padding-top: 20px;
-    height: 35vh;
-    width: 45vw;
-}   
 
 .content-heading {
     color: #2a9cbe;
     font-family: 'Abril Fatface', cursive, sans-serif;
-    margin: 20px;
+    margin: 40px 0px 35px 0px;
 }
 .content-heading i {
     color: #be962a;
@@ -187,15 +187,41 @@ form legend {
     color: #be962a;
 }
 
-.photo-frame  img {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 2px solid #be962a;
-    margin-bottom: 50px;
+#customer-quotes {
+    background-color: #2a9cbe;
 }
 
+#quotes-heading {
+    color: #fff;
+    margin: 60px 0px;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+}
 
+#quotes-heading i {
+    color: #be962a;
+}
+
+.photo-frame  img {
+    height: 125px;
+    width: 125px;
+    border-radius: 50%;
+    border: 4px solid #be962a;
+    margin-bottom: 10px;
+}
+
+.photo-frame p {
+    color: #fff;
+}
+
+#customer-quotes p {
+    color:#fff;
+    margin-bottom: 35px;
+}
+
+#customer-quotes p i {
+    color: #be962a;
+    size: 1.2em;
+}
 
 
 
