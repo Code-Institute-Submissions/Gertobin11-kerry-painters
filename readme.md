@@ -101,13 +101,46 @@
 
     ### Wireframing
     For my wireframes I used Balsamiq. I kept it basic and made sue all the pictures I included were
-     sketched to fit in with the tone of the wireframe.
+     sketched to fit in with the tone of the wireframe. You can view my 
+     wireframes [here](https://github.com/Gertobin11/gitpod-full-template/tree/master/assets/wireframes)
 
-    
-
-
+    <hr>
 
     ### Technologies
 
-    * 
+    * git 
+    * bootstrap
+    * fontawesome
+    * google Fonts
+    * GIMP (for editing the kerry painters logo)
+    * balsamiq (for my wireframes)
+
+    <hr>
+
+    ### Languages
+
+    * HTML
+    * CSS 
+    * JS & JQuery {were used by bootstrap which I used so I downloaded the cdn for them}
+
+    ### Features
+    * A call to action buttom on the hero image which brings up a modal so potential
+     customers can get a quote instantly without leaving the main page.
+     * A well laid out gallery to showcase the services on offer.
+     * A contact us page with a form, the site owners emil addresses and contact numbers.
+
+    ### Future Features 
+    * I would love to implement a form where the potential customer was given a choice of jobs, sizes and and paint type where upon entering they could get an instant ballpark figure quote.
+
+
+    ### Testing
+
+
+    ### Bugs 
+
+
+    ### Deployment
+
+
+    ### Credits
 
