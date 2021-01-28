@@ -100,7 +100,7 @@ body {
 
 .hero-image-cta button {
     background-color: #fff;
-    color: #2a9cbe;
+    color: #196076;
 }
 
 .hero-image-cta p span {
@@ -165,7 +165,7 @@ form legend {
 
 
 .content-heading {
-    color: #2a9cbe;
+    color: #196076;
     font-family: 'Abril Fatface', cursive, sans-serif;
     margin: 40px 0px 35px 0px;
 }
@@ -223,6 +223,9 @@ form legend {
     size: 1.2em;
 }
 
+footer {
+    font-size: 0.9em;
+}
 
 
 
@@ -248,9 +251,15 @@ form legend {
 @media (max-width: 700px) {
 .p-text-centered {
     width: 86%;
-    color: #2a9cbe;
+    color: #196076;
     margin-left: 7%;
     margin-right: 7%;
     margin-top: 25px;
+}
+}
+
+@media (max-width: 400px) {
+footer {
+    font-size: 0.7em;
 }
 }
