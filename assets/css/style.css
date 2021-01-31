@@ -132,7 +132,6 @@ body {
     background-color:transparent;
     text-align: center;
     color: #fff;
-    text-align: center;
 }
 
 .modal-header button {
@@ -257,6 +256,31 @@ form i {
     color: #be962a;
     font-size: 120%;
 }
+
+#who-we-are {
+    margin-top: 30px;
+}
+
+#about-us img {
+    width: 80%;
+    height: 250px;
+    margin: 50px 0px 30px 0px;
+
+}
+
+.blue-background {
+    color: #fff;
+    background-color: #196076;
+}
+
+#what-we-do {
+    margin-top: 50px;
+}
+
+
+
+
+
 
 
 
