@@ -67,6 +67,35 @@ body {
    
 }
 
+.underscore {
+    border-bottom: 2px solid #be962a;
+    border-bottom-width: 40%;
+}
+
+.enquire-button {
+    margin: 0 auto;
+    padding: 7px 7px;
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    color: #be962a;
+    border: 4px solid #be962a;
+    border-radius: 25%;
+    font-size: 1em;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.enquire-button:hover {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    background-color: #fff;
+    color:#196076;
+    border: 4px solid #196076;
+    border-radius: 25%;
+    text-decoration: none;
+}
 
 #hero-image-section {
     height: 85vh;
