@@ -8,23 +8,22 @@
 
 ### **Table Of Contents:**
 
-* UX 
-    * Project Goals
-    * User Goals
-    * User Stories
-    * Site Owner Goals
-    * Design Choices
-        * Fonts
-        * Icons
-        * Colours
-* Technologies
-* Features
-    * Features that have been depolyed
-    * Features that will be depolyed
-* Testing
-* Bugs
-* Deployment
-* Credits
+* [UX](#ux) 
+    * [Project Goals](#project-goals)
+    * [User Goals](#user-goals)
+    * [User Stories](#user-stories)
+    * [Site Owner Goals](#site-owner-goals)
+    * [Design Choices](#design-choices)
+        - Fonts
+        - Icons
+        - Colours
+* [Technologies](#technologies)
+* [Features](#features)
+* [Futute Features](#future-features)
+* [Testing](#testing)
+* [Bugs](#bugs)
+* [Deployment](#deployment)
+* [Credits](#credits)
     
 
     <hr>
@@ -82,7 +81,7 @@
 
     #### Design Choices
 
-    * #### Fonts:
+    * #### Fonts
         The Fonts I chose for this project were "Abril Fatface" and "open-sans".
         I used "Abril Fatface" for the brand logo and also for headings whereas I used 
         "open-sans"
