@@ -335,6 +335,29 @@ form i {
      margin-bottom: 15px;
  }
 
+.exterior-images img {
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.gallery-background h1 {
+    margin: 70px 0px 70px 0px;
+}
+
+.commercial-images img {
+    width: 90%;
+    height: 300px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.bottom-divider {
+      margin: 70px 0px 70px 0px;
+}
+
+
 
 
 
