@@ -322,6 +322,7 @@ form i {
     height: 300px;
     margin-top: 25px;
     margin-bottom: 10px;
+    border: 4px solid #be962a;
 }
 
 .gallery-images img {
@@ -329,7 +330,9 @@ form i {
     height: 400px;
     margin-top: 25px;
     margin-bottom: 10px;
+    border: 4px solid #be962a;
 }
+
  .margin-for-heading {
      margin-top: 25px;
      margin-bottom: 15px;
@@ -340,6 +343,7 @@ form i {
     height: 300px;
     margin-top: 20px;
     margin-bottom: 15px;
+    border: 4px solid #be962a;
 }
 
 .gallery-background h1 {
@@ -351,6 +355,7 @@ form i {
     height: 300px;
     margin-top: 20px;
     margin-bottom: 15px;
+    border: 4px solid #be962a;
 }
 
 .bottom-divider {
