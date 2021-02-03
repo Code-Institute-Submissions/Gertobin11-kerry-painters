@@ -15,6 +15,7 @@
 </head>
 
 <body>
+    <!--header with navbar based on bootstrap which will change to an icon when displaed on smaller devices-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
         <a class="navbar-brand" href="#">KERRY PAINTERS</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarnav"
@@ -38,6 +39,7 @@
             </ul>
         </div>
     </nav>
+    <!--main landing page call to action section, the focus is to be the button which triggers a modal for a contact form-->
     <section id="hero-image-section" class="container-fluid">
         <div class="row">
             <div class="col-12 text-right hero-image-cta" id="hero-image-cta">
@@ -50,6 +52,7 @@
 
             </div>
         </div>
+        <!--pop up modal for clients to fill out without having to leave the page, modal based on bootstrap with form elemnts added-->
         <div class="modal fade" id="cta-modal" tabindex="-1" role="dialog" aria-labelledby="model-header"
             aria-hidden="true">
             <div class="modal-dialog" role="document">
@@ -64,16 +67,16 @@
                         <form>
                             <div class="form-group">
                                 <label for="form-name"><i class="fas fa-file-contract"></i> Full Name:</label>
-                                <input type="text" class="form-control" id="form-name" placeholder="Enter Name">
+                                <input type="text" class="form-control" id="form-name" placeholder="Enter Name" required>
                             </div>
                             <div class="form-group">
                                 <label for="phone-number"><i class="fas fa-phone-alt"></i> Phone Number:</label>
-                                <input type="number" class="form-control" id="phone-number" placeholder="087....">
+                                <input type="number" class="form-control" id="phone-number" placeholder="087...." required>
                             </div>
                             <div class="form-group">
                                 <label for="email-address"><i class="fas fa-envelope"></i> Email address:</label>
                                 <input type="email" class="form-control" id="email-address" aria-describedby="emailhelp"
-                                    placeholder="Enter email">
+                                    placeholder="Enter email" required>
                                 <small id="emailhelp" class="form-text text-muted">We'll never share your email with
                                     anyone
                                     else.</small>
@@ -81,7 +84,7 @@
                             <div class="form-group">
                                 <label for="job-location"> <i class="fas fa-map-marked-alt"></i> Job Location:</label>
                                 <input type="text" class="form-control" id="job-location"
-                                    placeholder="Address or eircode">
+                                    placeholder="Address or eircode" required>
                             </div>
                             <legend><i class="fas fa-brush"></i> Job Type:</legend>
                             <div class="form-check">
@@ -129,7 +132,7 @@
         </div>
 
     </section>
-
+    <!--a section to show our brand logo and a to show our aim as a brand-->
     <section class="container-fluid">
         <div class="row">
             <div class="col-12">
@@ -149,6 +152,7 @@
             </div>
         </div>
     </section>
+    <!--a Section to show our satisfied customers and what they think about us , images taken from unsplash.com-->
     <section class="container-fluid" id="customer-quotes">
         <div class="row">
             <div class="col-12">
@@ -180,6 +184,7 @@
             </div>
         </div>
     </section>
+    <!--footer which displays our contact information and a link to our contact-us.html-->
     <footer class="container-fluid">
         <div class="row">
             <div class="col-12 uppercase content-heading">
@@ -199,6 +204,7 @@
                     john@kerrypainters.com
                 </p>
             </div>
+            <!--a div showing all our social media links which will open in a new page-->
             <div class="col-12 col-sm-4">
                 <h5 class="content-sub-heading"><i class="fas fa-hashtag"></i> Follow Us</h5>
                 <a href="https://twitter.com/" target="_blank" class="social-links"><i

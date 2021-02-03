@@ -1,3 +1,4 @@
+/*basic body styling and header and text styling*/
 body {   
      margin: 0px;
      padding: 0px;
@@ -5,6 +6,46 @@ body {
      text-align: center;
 }
 
+.container-fluid {
+    margin: 0px;
+}
+
+.content-heading {
+    color: #196076;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    margin: 40px 0px 35px 0px;
+}
+
+.content-sub-heading {
+    color: #196076;
+    font-family: 'Abril Fatface', cursive, sans-serif;
+    margin: 0px 0px 20px 0px;
+}
+
+
+.content-heading i {
+    color: #be962a;
+}
+
+.p-text-centered {
+    width: 50%;
+    color: #196076;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 25px;
+    margin-bottom: 30px;
+}
+
+.p-text-centered i {
+    size: 1.2em;
+    color: #be962a;
+}
+.blue-background {
+    color: #fff;
+    background-color: #196076;
+}
+
+/*header and navigation stylings*/
 .navbar {
     padding: 0px;
     background-color: #fff;
@@ -72,30 +113,7 @@ body {
     border-bottom-width: 40%;
 }
 
-.enquire-button {
-    margin: 0 auto;
-    padding: 7px 7px;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    color: #be962a;
-    border: 4px solid #be962a;
-    border-radius: 25%;
-    font-size: 1em;
-    font-weight: 600;
-}
-
-.enquire-button:hover {
-    margin: 0 auto;
-    display: flex;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    background-color: #fff;
-    color:#196076;
-    border: 4px solid #196076;
-    border-radius: 25%;
-}
+/*hero image section*/
 
 #hero-image-section {
     height: 85vh;
@@ -144,6 +162,8 @@ body {
     background-color: #be962a;
 }
 
+/*pop up modal section*/
+
 .modal-body legend {
     font-size: inherit;
     text-align: left;
@@ -179,10 +199,6 @@ body {
     color: #be962a;
 }
 
-.container-fluid {
-    margin: 0px;
-}
-
 form legend {
     color: #196076;
 }
@@ -192,37 +208,12 @@ form legend {
     background-color: #196076;
 }
 
-
-.content-heading {
-    color: #196076;
-    font-family: 'Abril Fatface', cursive, sans-serif;
-    margin: 40px 0px 35px 0px;
-}
-
-.content-sub-heading {
-    color: #196076;
-    font-family: 'Abril Fatface', cursive, sans-serif;
-    margin: 0px 0px 20px 0px;
-}
-
-
-.content-heading i {
+form i {
     color: #be962a;
+    font-size: 120%;
 }
 
-.p-text-centered {
-    width: 50%;
-    color: #196076;
-    margin-left: 25%;
-    margin-right: 25%;
-    margin-top: 25px;
-    margin-bottom: 30px;
-}
-
-.p-text-centered i {
-    size: 1.2em;
-    color: #be962a;
-}
+/*customer quotes section*/
 
 #customer-quotes {
     background-color: #196076;
@@ -260,6 +251,8 @@ form legend {
     size: 1.2em;
 }
 
+/*footer stylings*/
+
 footer {
     font-size: 0.9em;
 }
@@ -281,10 +274,32 @@ footer {
     font-size: 120%;
 }
 
-form i {
+.enquire-button {
+    margin: 0 auto;
+    padding: 7px 7px;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
     color: #be962a;
-    font-size: 120%;
+    border: 4px solid #be962a;
+    border-radius: 25%;
+    font-size: 1em;
+    font-weight: 600;
 }
+
+.enquire-button:hover {
+    margin: 0 auto;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    color:#196076;
+    border: 4px solid #196076;
+    border-radius: 25%;
+}
+
+/*about-us stylings*/
 
 #who-we-are {
     margin-top: 30px;
@@ -297,14 +312,11 @@ form i {
 
 }
 
-.blue-background {
-    color: #fff;
-    background-color: #196076;
-}
-
 #what-we-do {
     margin-top: 50px;
 }
+
+/*gallery stylings*/
 
 .gold-divider hr {
     border: 3px solid #be962a    
@@ -365,6 +377,8 @@ form i {
 
 
 
+
+/*media queries to help in the sites responsiveness*/
 
 @media (min-width:450px) {
     .hero-image-cta { font-size: 150%; }
