@@ -213,8 +213,14 @@ form i {
 
 /* our specialities section*/
 
+#our-specialities h2 {
+    margin-bottom: 30px;
+}
+
 #our-specialities i {
     color: #be962a;
+    font-size: 150%;
+    margin-bottom: 30px;
 }
 
 #our-specialities li {
@@ -243,6 +249,7 @@ li::marker {
 
 #quotes-heading i {
     color: #be962a;
+    font-size: 120%;
 }
 
 .photo-frame  img {
@@ -267,6 +274,10 @@ li::marker {
 }
 
 /*footer stylings*/
+
+#footer-headings {
+    margin-top: 30px;
+}
 
 footer {
     font-size: 0.9em;
