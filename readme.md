@@ -59,11 +59,11 @@
 
     * As a website user, I want a wesite that is easy to navigate, informative and visually clear.
 
-    * As a user, I want to find information about the services they offer.
+    * As a potential customer, I want to find information about the services they offer.
 
-    * As a user I want to see a visual repesentation of the work they have done/provide via images and galleries.
+    * As a potential customer I want to see a visual repesentation of the work they have done/provide via images and galleries.
 
-    * As a user I want to be able to contact the owners easily, whether by email, phone or contact form.
+    * As a potential I want to be able to contact the owners easily, whether by email, phone or contact form.
 
     <hr>
 
