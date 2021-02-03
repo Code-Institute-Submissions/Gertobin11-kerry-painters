@@ -374,6 +374,40 @@ footer {
       margin: 70px 0px 70px 0px;
 }
 
+/*contact us page styling*/
+
+#contact-us-section {
+    background-image: url(../images/white-and-grey-wall-with-roller.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}   
+
+#contact-us-section label {
+   width: auto;
+   margin: 0 auto;
+}
+
+#contact-us-section input {
+    width: auto;
+    margin: 0 auto;
+}
+
+#contact-us-section textarea {
+    width: auto;
+    margin: 0 auto;
+}
+
+#contact-us-section legend {
+    width: auto;
+    margin: 0 auto;
+}
+
+
+#contact-us-section form {
+    align-items: center;
+}
+
 
 
 
