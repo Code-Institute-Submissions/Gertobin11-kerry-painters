@@ -384,28 +384,29 @@ footer {
 }   
 
 #contact-us-section label {
-   width: auto;
-   margin: 0 auto;
+   width: 30%;
+   display: inline;
 }
 
 #contact-us-section input {
-    width: auto;
-    margin: 0 auto;
+    width: 65%;
+    display: inline;
 }
-
-#contact-us-section textarea {
-    width: auto;
-    margin: 0 auto;
-}
-
-#contact-us-section legend {
-    width: auto;
-    margin: 0 auto;
-}
-
 
 #contact-us-section form {
     align-items: center;
+}
+
+#contact-us-section textarea {
+    width: 65%;
+    display: inline;
+}
+
+#contact-phone-email {
+    background-image: url(../images/inverted1-white-and-grey-wall-with-roller.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 
