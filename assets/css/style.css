@@ -211,6 +211,24 @@ form i {
     font-size: 120%;
 }
 
+/* our specialities section*/
+
+#our-specialities i {
+    color: #be962a;
+}
+
+#our-specialities li {
+    font-family: 'Open Sans', sans-serif;
+    color: #196076;
+    font-size: 1em;
+}
+
+li::marker {
+    color: #be962a;
+}
+
+
+
 /*customer quotes section*/
 
 #customer-quotes {
