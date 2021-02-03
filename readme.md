@@ -133,8 +133,9 @@
 
 
     ### Testing
-
-
+        * I ran my webpages through jigsaw validator and I came up with 3 errors in the website which were easil fixed, 2 were simple missed property type where I put in size instead of resize, and another was bottom-border-width: 40% , which I didnt need so I just took it out
+        * I ran the web pages through W3C validator and I had one error where I put an a tag as a descendant of a button which I corrected esaily enough by placing it in a form with an action value.
+        * I tested the responsiveness throughout with chromedeveloper tools and any issues I had I fixed with adjusting my bootstrap grid and columns and in css with media queries. 
     ### Bugs 
 
 

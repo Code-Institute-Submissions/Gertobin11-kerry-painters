@@ -37,7 +37,6 @@ body {
 }
 
 .p-text-centered i {
-    size: 1.2em;
     color: #be962a;
 }
 .blue-background {
@@ -110,7 +109,6 @@ body {
 
 .underscore {
     border-bottom: 2px solid #be962a;
-    border-bottom-width: 40%;
 }
 
 /*hero image section*/
@@ -248,7 +246,6 @@ form i {
 
 #customer-quotes p i {
     color: #be962a;
-    size: 1.2em;
 }
 
 /*footer stylings*/
