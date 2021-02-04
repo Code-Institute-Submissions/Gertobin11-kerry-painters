@@ -65,6 +65,12 @@
 
     * As a potential I want to be able to contact the owners easily, whether by email, phone or contact form.
 
+    * I have attached a few screenshots of how I have addressed some of the user stories.
+
+    * ![user-gallery-story](assets/images/user-story-gallery.jpg)
+    
+    * ![user-story-contact](assets/images/user-story-contact-form.jpg)
+    
     <hr>
 
     #### Site Owner Goals
@@ -141,6 +147,8 @@
     * The main purpose of the gallery was to showcase the work by the site owners , but when I was testing it visually the images looked very stretched , I had given the images a height and a width and they lost their aspect ratio and conformed to the specified dimentions. I just wrapped the images in  a div and set the height of the div and the height of the image inside the div to 100% and no width value and overflow : hidden and this solved it.
     * Ran ths css validator again after all my editing and it came out good.
     * Ran  the html validator and I had 3 errors . I had my icons wrapped in a h3 bracket with nothing else inside , so I deleted the h3 brackets and then I increased the font size of the icons t make it appear the same.
+    * All the other pages passed.
+    
     ### Bugs 
     * 
 
@@ -170,3 +178,13 @@
     
     ### Credits
 
+    * Firstly to code institute which showed me how to start using code, also on the course I took my inspiration for my pp up modal from the whiskey drop module we covered.
+    * I found writing the readme file pretty tough but I found a great readme by a code institute student on slack and I have her to thank for my inspiration and layout. Her github s here if you want to check it out , I strongly advise you do as its amazing https://github.com/byIlsa/Aloy-from-outcast-to-heroine/blob/master/README.md
+    * Thanks to everybody on slack , everyone was helpful in mny ways from motivation to project insights.
+    * Stackoverflow and W3schools were really handy when I couldnt get something to react a certain way , they provided a fresh insight in how to manipulate code, or just target the proprty I wanted to.
+    * Bootstrap was instrumental in my project as I based all my responsiveness off its grid system , I also took forms, classes and the modal from its website.
+    * Images I got from unsplash.com , shutterstock and from Kerry Painters themselves.
+    * I used gimp to change the Kerry Painters logo.
+    * I used w3schools to see complimentary colours for the site.
+    * I used google fonts for my fonts.
+    * I used font awesome for my icons.
