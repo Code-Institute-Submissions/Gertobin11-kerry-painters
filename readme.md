@@ -172,7 +172,7 @@
     * Click on the download code button.
     * In the dropdown menu you can clone the repository or clck on the download link
     * Open up your favourite IDE and clone the repository orupload the files that you downloaded.
-    * Or if our a gitpod user simply press the green gitpod button to open it u in your gitpod workspace.
+    * Or if our a gitpod user simply press the green gitpod button to open it up in your gitpod workspace.
     * Or simply paste this link                     
 
     
