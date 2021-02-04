@@ -133,14 +133,40 @@
 
 
     ### Testing
-        * I ran my webpages through jigsaw validator and I came up with 3 errors in the website which were easil fixed, 2 were simple missed property type where I put in size instead of resize, and another was bottom-border-width: 40% , which I didnt need so I just took it out
-        * I ran the web pages through W3C validator and I had one error where I put an a tag as a descendant of a button which I corrected esaily enough by placing it in a form with an action value.
-        * I tested the responsiveness throughout with chromedeveloper tools and any issues I had I fixed with adjusting my bootstrap grid and columns and in css with media queries. 
+    * I ran my webpages through jigsaw validator and I came up with 3 errors in the website which were easil fixed, 2 were simple missed property type where I put in size instead of resize, and another was bottom-border-width: 40% , which I didnt need so I just took it out
+    * I ran the web pages through W3C validator and I had one error where I put an a tag as a descendant of a button which I corrected easily enough by placing it in a form with an action value.
+    * I tested the responsiveness throughout with chromedeveloper tools and any issues I had I fixed with adjusting my bootstrap grid and columns and in css with media queries. 
+    * I wanted the website to be easy to navigate and visually clear so I tested the navigation on multiple devices and checked the contrast with WEBAIM.org it has a handy tool that lets you see the contrast ratios of the colours on your site , using this I made the blue darker as it would be easier to see the content and make it more accessable.
+    * An important aspect of the site goals and user goals is connecting customers to the site owners so making sure the emails , phone numbers and contact forms were working , I found that the sub,it button wasnt acting like it should so I checked and it was placed outside the form so on correction it worked as it should.
+    * The main purpose of the gallery was to showcase the work by the site owners , but when I was testing it visually the images looked very stretched , I had given the images a height and a width and they lost their aspect ratio and conformed to the specified dimentions. I just wrapped the images in  a div and set the height of the div and the height of the image inside the div to 100% and no width value and overflow : hidden and this solved it.
+    * Ran ths css validator again after all my editing and it came out good.
+    * Ran  the html validator and I had 3 errors . I had my icons wrapped in a h3 bracket with nothing else inside , so I deleted the h3 brackets and then I increased the font size of the icons t make it appear the same.
     ### Bugs 
+    * 
 
 
     ### Deployment
 
+    ### Steps taken when I deployed the website on github pages
 
+     * Kerry Painters was created in github , developed in gitpod and deployed on github pages.
+     * To deploy I opened up github and logged in using my username and password.
+     * On the left hand side of the page shows my repositories and I selected Gertobin11/kerry-painters.
+     * Clicked on the settings Icons.
+     * Scrolled down to github pages.
+    * Click on the source box, it says none , so changed that to master and pressed save.
+    * Kerry Painters website is live on github pages.
+
+    #### Running it locally
+
+    * In the browser window type "https://github.com/Gertobin11/kerry-painters" into the address bar.
+    * Click on the download code button.
+    * In the dropdown menu you can clone the repository or clck on the download link
+    * Open up your favourite IDE and clone the repository orupload the files that you downloaded.
+    * Or if our a gitpod user simply press the green gitpod button to open it u in your gitpod workspace.
+    * Or simply paste this link                     
+
+    
+    
     ### Credits
 
