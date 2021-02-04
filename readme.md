@@ -21,7 +21,6 @@
 * [Features](#features)
 * [Futute Features](#future-features)
 * [Testing](#testing)
-* [Bugs](#bugs)
 * [Deployment](#deployment)
 * [Credits](#credits)
     
@@ -138,21 +137,23 @@
     * I would love to implement a form where the potential customer was given a choice of jobs, sizes and and paint type where upon entering they could get an instant ballpark figure quote.
 
 
-    ### Testing
+    ### Testing & Bugs
     * I ran my webpages through jigsaw validator and I came up with 3 errors in the website which were easil fixed, 2 were simple missed property type where I put in size instead of resize, and another was bottom-border-width: 40% , which I didnt need so I just took it out
     * I ran the web pages through W3C validator and I had one error where I put an a tag as a descendant of a button which I corrected easily enough by placing it in a form with an action value.
-    * I tested the responsiveness throughout with chromedeveloper tools and any issues I had I fixed with adjusting my bootstrap grid and columns and in css with media queries. 
+    * I tested the responsiveness throughout with chrome developer tools and any issues I had I fixed with adjusting my bootstrap grid and columns and in css with media queries. 
     * I wanted the website to be easy to navigate and visually clear so I tested the navigation on multiple devices and checked the contrast with WEBAIM.org it has a handy tool that lets you see the contrast ratios of the colours on your site , using this I made the blue darker as it would be easier to see the content and make it more accessable.
     * An important aspect of the site goals and user goals is connecting customers to the site owners so making sure the emails , phone numbers and contact forms were working , I found that the sub,it button wasnt acting like it should so I checked and it was placed outside the form so on correction it worked as it should.
     * The main purpose of the gallery was to showcase the work by the site owners , but when I was testing it visually the images looked very stretched , I had given the images a height and a width and they lost their aspect ratio and conformed to the specified dimentions. I just wrapped the images in  a div and set the height of the div and the height of the image inside the div to 100% and no width value and overflow : hidden and this solved it.
     * Ran ths css validator again after all my editing and it came out good.
     * Ran  the html validator and I had 3 errors . I had my icons wrapped in a h3 bracket with nothing else inside , so I deleted the h3 brackets and then I increased the font size of the icons t make it appear the same.
     * All the other pages passed.
+    * I checked the responsiveness of the final version and the only problem I encountered that  I havent rectifies is in the gallery when viewing on mobile 2 pictures bleed off the right hand side of the screen.
+    * I checked the pop up form by trying to submit an empty field and it worked as I hoped by briging me back to the required field.
+    * I also used the above method with the contact form on the contact us page, as abve it worked as I had hoped .
+    * I made sure all the navigation links were working and the enquire button was sending us to the contact page , I found no issues.
+    * While I was developing I encountered a few problems with margins pushing content from where I wanted to position them , this was easily solved by targeting the objects with css.
+    * I also had a few problems in development with font sizes when moving from desktop to mobile, I solved these with media queries
     
-    ### Bugs 
-    * 
-
-
     ### Deployment
 
     ### Steps taken when I deployed the website on github pages
