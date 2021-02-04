@@ -153,7 +153,9 @@
     * I made sure all the navigation links were working and the enquire button was sending us to the contact page , I found no issues.
     * While I was developing I encountered a few problems with margins pushing content from where I wanted to position them , this was easily solved by targeting the objects with css.
     * I also had a few problems in development with font sizes when moving from desktop to mobile, I solved these with media queries
-    
+    * The last test I did was on gtmetrix.com to check the performance of the website , it scored an A and I was very happy , the only fault was it got 84% in structure but 100% in performance. later I will hope to bring structure inline with performance. I have added a screeenshot below.
+    * ![screeenshot from gtmetrix.com](assets/images/gtmetrix-performance-score.jpg)
+
     ### Deployment
 
     ### Steps taken when I deployed the website on github pages
